@@ -2,9 +2,9 @@
 
 ## Origem do Projeto
 
-Este software é fruto de uma **dissertação de mestrado** defendida em outubro de 2016 na **Universidade Federal de Uberlândia (UFU)**, pelo **Programa de Pós-graduação em Engenharia Elétrica** da **Faculdade de Engenharia Elétrica (FEELT)**.
+Este software é fruto de uma **tese de doutorado** defendida em outubro de 2016 na **Universidade Federal de Uberlândia (UFU)**, pelo **Programa de Pós-graduação em Engenharia Elétrica** da **Faculdade de Engenharia Elétrica (FEELT)**.
 
-> **TAMASHIRO, Márcio Augusto.** *Uma estratégia de interação na Web para a análise de sistemas elétricos de potência.* 2016. 127 f. Dissertação (Mestrado em Ciências) — Universidade Federal de Uberlândia, Uberlândia, 2016.
+> **TAMASHIRO, Márcio Augusto.** *Uma estratégia de interação na Web para a análise de sistemas elétricos de potência.* 2016. 127 f. Tese (Doutorado em Ciências) — Universidade Federal de Uberlândia, Uberlândia, 2016.
 > DOI: [https://doi.org/10.14393/ufu.te.2016.137](https://doi.org/10.14393/ufu.te.2016.137)
 
 O documento completo está disponível no Repositório Institucional da UFU:
