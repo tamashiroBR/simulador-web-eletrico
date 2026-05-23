@@ -1,6 +1,12 @@
+Options -Indexes
 RewriteEngine On
-RewriteBase /ndse/client2/webapi/
+
+# RewriteBase relativo: funciona em qualquer subdiretório de instalação.
+# Não é necessário alterar este arquivo independentemente do caminho usado
+# (ex: /webapi/, /ndse/client2/webapi/, /meuapp/api/, etc.)
+RewriteBase /
+
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /ndse/client2/webapi/index.php [L]
+RewriteRule ^ index.php [QSA,L]
