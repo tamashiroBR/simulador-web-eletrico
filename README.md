@@ -72,17 +72,15 @@ O frontend envia os dados em formato **JSON** via requisição HTTP POST para a 
 
 ## Casos de Teste
 
-A pasta `cases/` contém arquivos JSON prontos para uso, baseados nos sistemas de teste clássicos da literatura:
+A pasta `cases/` contém os arquivos JSON utilizados nos testes computacionais da tese (Apêndice A), que serviram de base para a validação dos resultados em comparação com o MATPOWER:
 
-| Arquivo | Sistema | Barras | Ramos |
-|---------|---------|--------|-------|
-| `radial2bus.json` | Radial 2 barras | 2 | 1 |
-| `ieee3bus.json` | IEEE 3 barras | 3 | 3 |
-| `ieee5bus.json` | IEEE 5 barras | 5 | 7 |
-| `ieee9bus.json` | IEEE 9 barras | 9 | 9 |
-| `ieee14bus.json` | IEEE 14 barras | 14 | 20 |
-| `ieee30bus.json` | IEEE 30 barras | 30 | 41 |
-| `transformer4bus.json` | 4 barras c/ transformador | 4 | 4 |
+| Arquivo | Sistema | Barras | Ramos | Seção na tese |
+|---------|---------|--------|-------|---------------|
+| `ieee9bus.json` | IEEE 9 barras | 9 | 9 | A.1 |
+| `ieee57bus.json` | IEEE 57 barras | 57 | 78 | A.2 |
+| `ieee118bus.json` | IEEE 118 barras | 118 | 186 | A.3 |
+
+Todos os casos adotam os parâmetros padrão da tese: 100 MVA de potência base, 10 iterações máximas, tolerância de 1×10⁻³ e verificação de limite de potência reativa ativa. Consulte `cases/README.md` para a descrição completa do formato JSON.
 
 ### Instalação
 
