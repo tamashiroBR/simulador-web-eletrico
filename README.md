@@ -12,7 +12,7 @@ O documento completo está disponível no Repositório Institucional da UFU:
 
 **Orientador:** Prof. Geraldo Caixeta Guimarães
 
-**Banca examinadora:** Prof. Adelio Jose de Moraes, Prof. David Calhau Jorge, Prof. Edgard Afonso Lamounier Júnior, Prof. Sergio Batista da Silva.
+**Banca examinadora:** Prof. Adelio Jose de Moraes (in memoriam), Prof. David Calhau Jorge, Prof. Edgard Afonso Lamounier Júnior, Prof. Sergio Batista da Silva.
 
 ---
 
