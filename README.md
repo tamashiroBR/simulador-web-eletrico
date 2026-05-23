@@ -85,7 +85,7 @@ Todos os casos adotam os parâmetros padrão da tese: 100 MVA de potência base,
 ### Instalação
 
 ```bash
-git clone https://github.com/tamashiroBR/simulador-web-eletrico.git
+git clone https://github.com/tamashiroBR/simulador-web-FP.git
 ```
 
 Abra `index.html` diretamente no navegador ou sirva o diretório raiz por qualquer servidor web.
