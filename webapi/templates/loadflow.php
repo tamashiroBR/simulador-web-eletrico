@@ -4,11 +4,11 @@
 ini_set('display_errors', 0);
 error_reporting(E_ALL);
 
+require __DIR__ . '/../bootstrap.php';
+
+use NDSE\Tools\LoadFlow;
+
 try {
-    require __DIR__ . '/../bootstrap.php';
-
-    use NDSE\Tools\LoadFlow;
-
     if (!is_null($data)) {
 
         // json_decode returns stdClass objects and arrays of stdClass.
