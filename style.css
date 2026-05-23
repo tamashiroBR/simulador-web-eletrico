@@ -1,0 +1,24 @@
+#grid_option {
+  width: 320px;
+  height: 60px;
+}
+
+#grid_bus {
+  width: 1120px;
+  height: 210px;
+}
+
+#grid_branch {
+  width: 670px;
+  height: 210px;
+}
+
+#bus_result {
+  width: 870px;
+  height: 210px;
+}
+
+#branch_result {
+  width: 720px;
+  height: 210px;
+}

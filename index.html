@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="codebase/dhtmlx.css"/>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>	
+	<script src="codebase/dhtmlx.js"></script>		
+    <script type="text/javascript" charset="utf-8">
+        var TogetherJSConfig_disableWebRTC = true;
+        var TogetherJSConfig_dontShowClicks = true;
+        var TogetherJSConfig_suppressInvite = true;		
+    </script>
+    <script src="https://togetherjs.com/togetherjs-min.js"></script>
+  </head>
+ <body>
+    <h1>LOAD FLOW</h1>
+ 	<input type="file" id="fileinput" />
+	<button id="together">Start TogetherJS</button>
+	
+    <h3>OPTIONS</h3>
+	<div id="grid_option"></div>
+	
+    <h3>BUS</h3>
+	<div id="grid_bus"></div>
+	<button id="addBus">Add Bus</button>
+	<button id="removeBus">Remove Bus</button>
+	
+    <h3>BRANCH</h3>
+	<div id="grid_branch"></div>
+	<button id="addBranch">Add Branch</button>
+	<button id="removeBranch">Remove Branch</button>
+
+	<br><br>
+	
+    <h2>RESULT</h2>
+	<button id="run">Run Load Flow</button>
+	<div id="iter"></div>
+	
+    <h3>BUS</h3>
+	<div id="bus_result"></div>
+
+    <h3>BRANCH</h3>
+	<div id="loss"></div>
+	<div id="branch_result"></div>
+	
+	<script src="app.js"></script>  
+  </body>
+</html>
