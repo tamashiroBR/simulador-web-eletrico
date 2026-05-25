@@ -26,7 +26,7 @@ The motivation stems from the realization that commercial programs for electrica
 
 ### Load Flow Analysis
 
-The main module of the application performs the power flow calculation using the **Newton-Raphson method**, allowing:
+The main module of the application performs the load flow calculation using the **Newton-Raphson method**, allowing:
 
 - Input of bus and branch data directly into editable grids in the interface
 - Configuration of execution parameters: base power (MVA), maximum number of iterations, convergence tolerance, and reactive power limit checking
