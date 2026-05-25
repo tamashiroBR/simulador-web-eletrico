@@ -2,7 +2,7 @@
 
 ## Project Origin
 
-This software is part of the doctoral thesis defended at the Federal University of Uberlândia, Faculty of Electrical Engineering. The full thesis d **doctoral thesis** defended in October 2016 at the **Federal University of Uberlândia (UFU)**, by the **Graduate Program in Electrical Engineering** of the **Faculty of Electrical Engineering (FEELT)**.
+This software is part of the doctoral thesis defended at the Federal University of Uberlândia, Faculty of Electrical Engineering. The full thesis d **doctoral thesis** defended in October 2016 at the **Federal University of Uberlândia (UFU)**, **Faculty of Electrical Engineering (FEELT)**.
 
 > **TAMASHIRO, Márcio Augusto.** *A Web interaction strategy for the analysis of electrical power systems.* 2016. 127 f. Thesis (Doctorate in Sciences) — Federal University of Uberlândia, Uberlândia, 2016.
 > DOI: [https://doi.org/10.14393/ufu.te.2016.137](https://doi.org/10.14393/ufu.te.2016.137)
@@ -101,16 +101,6 @@ Then access `http://localhost:8000` in your browser. The `router.php` handles th
 Serve the project root directory using any web server with PHP 8.0+ and `mod_rewrite` enabled (for Apache, the `.htaccess` inside `webapi/` handles the routing). The project can be placed in **any folder and port** on the server — the frontend automatically detects the base URL at runtime and constructs the API endpoint relative to the current page location.
 
 > **Note:** The API URL is calculated dynamically from `window.location.origin` and `window.location.pathname`, so no manual configuration of host, port, or subfolder is required after deployment.
-
-The table below shows how the API URL is resolved automatically for different deployment scenarios:
-
-| Browser URL | API URL (resolved automatically) |
-|---|---|
-| `http://localhost/ndse/client2/` | `http://localhost/ndse/client2/webapi/nws/v1/loadflow` |
-| `http://localhost/ndse/client2/index.html` | `http://localhost/ndse/client2/webapi/nws/v1/loadflow` |
-| `http://localhost:8000/` | `http://localhost:8000/webapi/nws/v1/loadflow` |
-| `http://localhost:8000/index.html` | `http://localhost:8000/webapi/nws/v1/loadflow` |
-| `http://myserver.com/simulator/` | `http://myserver.com/simulator/webapi/nws/v1/loadflow` |
 
 ### Usage Flow
 
