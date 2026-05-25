@@ -1,4 +1,4 @@
-# Web Simulator for Power Flow Calculation in Electrical Systems
+# Web Simulator for Load Flow Calculation in Electrical Systems
 
 ## Project Origin
 
@@ -24,7 +24,7 @@ The motivation stems from the realization that commercial programs for electrica
 
 ## Implemented Features
 
-### Power Flow Analysis (Load Flow)
+### Load Flow Analysis
 
 The main module of the application performs the power flow calculation using the **Newton-Raphson method**, allowing:
 
@@ -50,7 +50,7 @@ Data input and visualization are done through **interactive grids** based on the
 
 The application integrates **TogetherJS** (Mozilla), which allows multiple users to work simultaneously on the same case, with real-time synchronization of all changes in the grids (adding/removing buses and branches, editing cells, and loading files).
 
-### Communication with the Calculation API
+### Communication with the API
 
 The frontend sends data in **JSON** format via HTTP POST request to the calculation API (`webapi/nws/v1/loadflow`), which executes the Newton-Raphson algorithm on the server and returns the results for display.
 
