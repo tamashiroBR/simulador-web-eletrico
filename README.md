@@ -2,7 +2,7 @@
 
 ## Project Origin
 
-This software is part of the doctoral thesis defended at the Federal University of Uberlândia, Faculty of Electrical Engineering. The full thesis d **doctoral thesis** defended in October 2016 at the **Federal University of Uberlândia (UFU)**, **Faculty of Electrical Engineering (FEELT)**.
+This software is part of the doctoral thesis defended at the Federal University of Uberlândia, Faculty of Electrical Engineering. The **doctoral thesis** was defended in October 2016 at the **Federal University of Uberlândia (UFU)**, **Faculty of Electrical Engineering (FEELT)**.
 
 > **TAMASHIRO, Márcio Augusto.** *A Web interaction strategy for the analysis of electrical power systems.* 2016. 127 f. Thesis (Doctorate in Sciences) — Federal University of Uberlândia, Uberlândia, 2016.
 
